@@ -6,17 +6,17 @@ local statuslist = {};
 statuslist.fallensurvival = {
 	name 		= 'Fallen Survival';
 	status 		= 'Undetected';
-	support 	= {'Zenith'; 'Swift'; 'Wave'; 'Potassium'; 'Volcano'; 'Valex'; };
+	support 	= {'Zenith'; 'Valex'; 'Wave'; 'Potassium'; 'Volcano'; 'Swift'; };
 };
 statuslist.tridentsurvival = {
 	name 		= 'Trident Survival';
 	status 		= 'Undetected';
-	support 	= {'Wave'; 'Zenith'; 'MacSploit'; 'Velocity'; 'Potassium'; 'Seliware'; 'Swift'; 'Volcano'; 'Valex'; };
+	support 	= {'Wave'; 'Zenith'; 'MacSploit'; 'Velocity'; 'Potassium'; 'Seliware'; 'Valex'; 'Volcano'; 'Swift'; };
 };
 statuslist.lonesurvival = {
 	name 		= 'Lone Survival';
 	status      = 'Undetected';
-	support 	= {'Wave'; 'Zenith'; 'MacSploit'; 'Velocity'; 'Potassium'; 'Seliware'; 'Swift'; 'Volcano'; 'Valex'; };
+	support 	= {'Wave'; 'Zenith'; 'MacSploit'; 'Velocity'; 'Potassium'; 'Seliware'; 'Valex'; 'Volcano'; 'Swift'; };
 };
 
 local players 		= game:GetService('Players');
